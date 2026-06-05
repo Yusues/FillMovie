@@ -1,0 +1,2 @@
+# These files are application internals and must never be served directly.
+Require all denied

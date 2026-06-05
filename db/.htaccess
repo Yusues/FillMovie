@@ -1,0 +1,2 @@
+# SQL files should never be served over the web.
+Require all denied

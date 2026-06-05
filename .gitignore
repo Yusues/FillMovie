@@ -1,9 +1,12 @@
-# Dreamweaver sync notes
-_notes/
+# Local environment / secrets
+.env
+
+# Logs
+*.log
+
+# Dependencies (if you ever add Composer)
+/vendor/
 
 # OS junk
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
