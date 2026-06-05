@@ -1,0 +1,9 @@
+# Dreamweaver sync notes
+_notes/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
