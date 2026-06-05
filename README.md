@@ -1,4 +1,4 @@
-# Movie Social Media
+# FillMovie
 
 A small social network for movie fans, written in plain PHP. Sign up, post about
 films, write reviews with a rating, keep a watchlist, follow other people, and send
@@ -36,7 +36,7 @@ bcrypt, adds CSRF protection, and keeps secrets in a `.env` file.
 1. **Get the code** into your web root (for XAMPP, under `htdocs/`):
 
    ```bash
-   git clone https://github.com/Yusues/Movie-Social-Media-Film-Tabanl-Sosyal-Medya.git
+   git clone https://github.com/Yusues/FillMovie.git
    ```
 
 2. **Create the database.** Import the schema, then the demo data if you want
@@ -59,7 +59,7 @@ bcrypt, adds CSRF protection, and keeps secrets in a `.env` file.
    [OMDb API key](https://www.omdbapi.com/apikey.aspx) as `OMDB_API_KEY` — leave it
    blank to run without that feature.
 
-4. **Open the app** at `http://localhost/Movie-Social-Media-Film-Tabanl-Sosyal-Medya/public/`.
+4. **Open the app** at `http://localhost/FillMovie/public/`.
 
    The root URL redirects to `public/`. On a production server, point the document
    root at the `public/` folder instead.

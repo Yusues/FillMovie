@@ -1,9 +1,9 @@
--- Movie Social Media — database schema
+-- FillMovie — database schema
 -- MySQL / MariaDB. Import this once, then optionally import seed.sql for demo data.
 
-CREATE DATABASE IF NOT EXISTS moviesocial
+CREATE DATABASE IF NOT EXISTS fillmovie
   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE moviesocial;
+USE fillmovie;
 
 CREATE TABLE users (
   id            INT UNSIGNED NOT NULL AUTO_INCREMENT,

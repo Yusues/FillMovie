@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $input = array_merge($input, $_POST);
     $errors = register_user($_POST);
     if (!$errors) {
-        flash('Account created. Welcome to MovieSocial!', 'success');
+        flash('Account created. Welcome to FillMovie!', 'success');
         redirect('feed.php');
     }
 }

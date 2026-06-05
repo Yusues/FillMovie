@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../auth.php';
 
 $me = current_user();
-$title = isset($page_title) ? $page_title . ' · MovieSocial' : 'MovieSocial';
+$title = isset($page_title) ? $page_title . ' · FillMovie' : 'FillMovie';
 $current = basename($_SERVER['SCRIPT_NAME'] ?? '');
 
 /** Print class="active" when $file is the current page. */
@@ -21,7 +21,7 @@ function nav_active(string $file, string $current): string
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="<?= $me ? 'feed.php' : 'index.php' ?>">Movie<span>Social</span></a>
+    <a class="brand" href="<?= $me ? 'feed.php' : 'index.php' ?>">Fill<span>Movie</span></a>
     <nav class="nav">
       <?php if ($me): ?>
         <a href="feed.php"<?= nav_active('feed.php', $current) ?>>Feed</a>

@@ -1,8 +1,8 @@
--- Demo data for Movie Social Media.
+-- Demo data for FillMovie.
 -- All three accounts use the password: password123
 -- Import after schema.sql.
 
-USE moviesocial;
+USE fillmovie;
 
 INSERT INTO users (first_name, last_name, email, password_hash, bio, birth_date) VALUES
 ('Ada', 'Lin',   'ada@example.com', '$2y$10$hudbTNawhid5p9atz9B5E.ccK86JTTpKOysW8iYjGv9Eeh3U1tXUi', 'Sci-fi and slow-burn thrillers.', '1995-04-12'),
